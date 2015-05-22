@@ -11,7 +11,7 @@ var controllers = app.controllers;
 
 function routeConfig(){
 	//路由自定义配置,单个
-	app.get('/', 'blog', 'index');
+	app.get('/index.html', 'blog', 'index');
 
 
 	//自定义路由设置,批量配置
